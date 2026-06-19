@@ -24,7 +24,7 @@ export const Philosophy = () => {
                     transition={{ duration: 0.8 }}
                 >
                     We believe growth comes from systems working in harmony. <br />
-                    <span className="text-white/40">Aligned strategy, content, execution, and optimization — repeated intentionally.</span>
+                    <span className="text-white/40">Aligned strategy, content, execution, and optimization repeated intentionally.</span>
                 </motion.h2>
 
                 <motion.div

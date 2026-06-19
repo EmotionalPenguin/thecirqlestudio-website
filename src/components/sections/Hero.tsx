@@ -14,15 +14,15 @@ export const Hero = () => {
                 <GradientRing size="clamp(350px, 85vmin, 900px)" />
             </div>
 
-            <div className="relative z-10 text-center space-y-8 max-w-[90vw] md:max-w-4xl px-4 flex flex-col items-center">
+            <div className="relative z-10 text-center space-y-4 md:space-y-8 max-w-[80vw] md:max-w-4xl px-4 flex flex-col items-center">
                 {/* 'The Cirqle Studio' text removed, moved to Header */}
 
                 <motion.h1
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1, delay: 0.2 }}
-                    className="font-light tracking-tight text-white leading-[1.1]"
-                    style={{ fontSize: "clamp(2rem, 5vw, 4.5rem)" }}
+                    className="font-light tracking-tight text-white leading-[1.15]"
+                    style={{ fontSize: "clamp(1.6rem, 5vw, 4.5rem)" }}
                 >
                     Where Strategy
                     <br />
@@ -35,22 +35,22 @@ export const Hero = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 0.5 }}
-                    className="text-white/60 max-w-[80vw] md:max-w-xl mx-auto"
-                    style={{ fontSize: "clamp(0.9rem, 1.5vw, 1.125rem)" }}
+                    className="text-white/60 max-w-[72vw] md:max-w-xl mx-auto"
+                    style={{ fontSize: "clamp(0.8rem, 1.5vw, 1.125rem)" }}
                 >
-                    We create the loops — content, ads, websites, and optimization — that turn brands into engines.
+                    We create the loops of content, ads, websites, and optimization that turn brands into engines.
                 </motion.p>
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.8 }}
-                    className="flex flex-col md:flex-row gap-4 md:gap-6 items-center justify-center w-full"
+                    className="flex flex-col md:flex-row gap-2.5 md:gap-6 items-center justify-center w-full"
                 >
                     {/* Email Button (Left) */}
                     <Link
                         href="mailto:thecirqlestudio@gmail.com"
-                        className="group relative inline-flex items-center justify-center gap-3 px-8 py-3.5 w-full max-w-[260px] md:max-w-none md:w-auto md:min-w-[240px] rounded-full border border-white/20 hover:border-white/40 transition-all duration-300 bg-[#0a0a0a]/50 backdrop-blur-sm overflow-hidden"
+                        className="group relative inline-flex items-center justify-center gap-3 px-7 py-2.5 md:px-8 md:py-3.5 w-full max-w-[240px] md:max-w-none md:w-auto md:min-w-[240px] rounded-full border border-white/20 hover:border-white/40 transition-all duration-300 bg-[#0a0a0a]/50 backdrop-blur-sm overflow-hidden"
                     >
                         <div className="absolute inset-0 rounded-full border border-white/20 group-hover:border-transparent transition-colors duration-300" />
                         <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r from-[var(--c-peach)] via-[var(--c-pink)] to-[var(--c-magenta)] p-[1px] -z-10">
@@ -67,7 +67,7 @@ export const Hero = () => {
                     {/* WhatsApp Button (Right) */}
                     <Link
                         href="https://wa.me/+918438996641"
-                        className="group relative inline-flex items-center justify-center gap-3 px-8 py-3.5 w-full max-w-[260px] md:max-w-none md:w-auto md:min-w-[240px] rounded-full border border-white/20 hover:border-white/40 transition-all duration-300 bg-[#0a0a0a]/50 backdrop-blur-sm overflow-hidden"
+                        className="group relative inline-flex items-center justify-center gap-3 px-7 py-2.5 md:px-8 md:py-3.5 w-full max-w-[240px] md:max-w-none md:w-auto md:min-w-[240px] rounded-full border border-white/20 hover:border-white/40 transition-all duration-300 bg-[#0a0a0a]/50 backdrop-blur-sm overflow-hidden"
                     >
                         <div className="absolute inset-0 rounded-full border border-white/20 group-hover:border-transparent transition-colors duration-300" />
                         <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r from-[var(--c-peach)] via-[var(--c-pink)] to-[var(--c-magenta)] p-[1px] -z-10">
