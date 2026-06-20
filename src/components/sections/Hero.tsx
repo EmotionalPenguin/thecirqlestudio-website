@@ -45,21 +45,21 @@ export const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.8 }}
-                    className="flex flex-col md:flex-row gap-2 md:gap-6 items-center justify-center w-full"
+                    className="flex flex-col md:flex-row gap-2.5 md:gap-6 items-center justify-center w-full"
                 >
                     {/* Email Button (Left) */}
                     <Link
                         href="mailto:thecirqlestudio@gmail.com"
-                        className="group relative inline-flex items-center justify-center gap-3 px-7 py-2 md:px-8 md:py-3.5 w-full max-w-[240px] md:max-w-none md:w-auto md:min-w-[240px] rounded-full border border-white/20 hover:border-white/40 transition-all duration-300 bg-[#0a0a0a]/50 backdrop-blur-sm overflow-hidden"
+                        className="group relative inline-flex items-center justify-center gap-2 md:gap-3 px-5 py-2 md:px-8 md:py-3.5 w-full max-w-[190px] sm:max-w-[220px] md:max-w-none md:w-auto md:min-w-[240px] rounded-full border border-white/20 hover:border-white/40 transition-all duration-300 bg-[#0a0a0a]/50 backdrop-blur-sm overflow-hidden"
                     >
                         <div className="absolute inset-0 rounded-full border border-white/20 group-hover:border-transparent transition-colors duration-300" />
                         <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r from-[var(--c-peach)] via-[var(--c-pink)] to-[var(--c-magenta)] p-[1px] -z-10">
                             <div className="w-full h-full bg-[#0a0a0a] rounded-full" />
                         </div>
 
-                        <Mail className="w-5 h-5 text-white/90 group-hover:text-white transition-colors" />
+                        <Mail className="w-4 h-4 md:w-5 md:h-5 text-white/90 group-hover:text-white transition-colors flex-shrink-0" />
 
-                        <span className="text-base font-light tracking-wide text-white/90 group-hover:text-white transition-colors">
+                        <span className="text-sm md:text-base font-light tracking-wide text-white/90 group-hover:text-white transition-colors whitespace-nowrap">
                             Email Cirqle Studio
                         </span>
                     </Link>
@@ -67,14 +67,14 @@ export const Hero = () => {
                     {/* WhatsApp Button (Right) */}
                     <Link
                         href="https://wa.me/+918438996641"
-                        className="group relative inline-flex items-center justify-center gap-3 px-7 py-2 md:px-8 md:py-3.5 w-full max-w-[240px] md:max-w-none md:w-auto md:min-w-[240px] rounded-full border border-white/20 hover:border-white/40 transition-all duration-300 bg-[#0a0a0a]/50 backdrop-blur-sm overflow-hidden"
+                        className="group relative inline-flex items-center justify-center gap-2 md:gap-3 px-5 py-2 md:px-8 md:py-3.5 w-full max-w-[190px] sm:max-w-[220px] md:max-w-none md:w-auto md:min-w-[240px] rounded-full border border-white/20 hover:border-white/40 transition-all duration-300 bg-[#0a0a0a]/50 backdrop-blur-sm overflow-hidden"
                     >
                         <div className="absolute inset-0 rounded-full border border-white/20 group-hover:border-transparent transition-colors duration-300" />
                         <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-r from-[var(--c-peach)] via-[var(--c-pink)] to-[var(--c-magenta)] p-[1px] -z-10">
                             <div className="w-full h-full bg-[#0a0a0a] rounded-full" />
                         </div>
 
-                        <div className="relative w-6 h-6">
+                        <div className="relative w-4 h-4 md:w-6 md:h-6 flex-shrink-0">
                             <Image
                                 src="/whatsapp-logo.png"
                                 alt="WhatsApp"
@@ -84,7 +84,7 @@ export const Hero = () => {
                             />
                         </div>
 
-                        <span className="text-base font-light tracking-wide text-white/90 group-hover:text-white transition-colors">
+                        <span className="text-sm md:text-base font-light tracking-wide text-white/90 group-hover:text-white transition-colors whitespace-nowrap">
                             WhatsApp Us
                         </span>
                     </Link>
